@@ -133,3 +133,23 @@ i:hover {
 .circle:hover {
   background-color: rgb(45, 141, 136);
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ 
+  #profile {
+    margin-left:50px;
+    padding:20px;
+  }
+  .center {
+    margin-left: 30%;
+  }
+
+  .skills {
+    height:80px;
+    width:400px;
+    margin-top:20px;
+  }
+
+}
